@@ -1,20 +1,22 @@
 # AIOVTUE Hugo 博客
 
-参考valaxy、butterfly、sakura等，基于Hugo 的静态博客。
+参考butterfly、sakura等，基于Hugo 的静态博客。
+欢迎前往示例网站参观：[AIOVTUE-XUE](https://daily.yybb.us)
 
 ## 博客预览
+主页
 ![](https://pic1.imgdb.cn/item/6a3938ff4a893629d992bb61.png)
 ---
-
+文章
 ![](https://pic1.imgdb.cn/item/6a3938fe4a893629d992bb5f.png)
 ---
-
+友链
 ![](https://pic1.imgdb.cn/item/6a3938ff4a893629d992bb60.png)
 ---
-
+分类
 ![](https://pic1.imgdb.cn/item/6a3938fe4a893629d992bb5d.png)
 ---
-
+归档
 ![](https://pic1.imgdb.cn/item/6a3938fe4a893629d992bb5e.png)
 ---
 
