@@ -32,7 +32,7 @@
 baseURL = 'https://daily.yybb.us/'
 locale = 'zh-cn'
 defaultContentLanguage = 'zh'
-title = 'CEAZER-璨'          # 站点名称（浏览器标题、页脚版权等）
+title = 'CEAZER'          # 站点名称（浏览器标题、页脚版权等）
 theme = 'aiovtue'           # 主题目录：themes/aiovtue/
 hasCJKLanguage = true      # 启用中文分词（搜索、摘要等）
 enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layouts/robots.txt）
@@ -128,16 +128,16 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
 
   # --- 侧栏 / 关于页作者信息 ---
   [params.author]
-    name = 'AIOVTUE'
+    name = 'CEAZER'
     avatar = '/hero/avatar.png'
     statusEmoji = '🌸'     # 头像角标
-    statusMessage = '发呆ing...'
+    statusMessage = '扰攘中...'
 
   # --- 首页 Hero 大图 / 视频轮播 ---
   # 媒体文件放在 static/hero/，此处写 URL 路径（以 / 开头）
   [params.hero]
-    title = 'AIOVTUE'
-    motto = '雨是神的烟花'
+    title = 'CEAZER'
+    motto = '日高烟敛，更看今日晴未'
     randomUrls = true      # 随机切换背景
     enableHitokoto = true  # 一言 API 随机格言
     typewriter = true      # 打字机效果
@@ -161,7 +161,7 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
   [params.footer]
     since = 2024           # 版权起始年
     runtimeSince = '2024-01-01'   # 站点运行倒计时起点（YYYY-MM-DD）
-    icp = '<a href="https://icp.gov.moe/?keyword=20260258" target="_blank" rel="noopener">萌ICP备20260258号</a>'
+    # icp = '<a href="https://icp.gov.moe/?keyword=20260258" target="_blank" rel="noopener">萌ICP备20260258号</a>'
 
   # --- 首页公告栏（右侧域名列表）---
   # --- 首页文章列表布局 ---
@@ -241,12 +241,12 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
   # provider 可选：waline | twikoo
   # 单篇文章可在 front matter 写 comment: false 关闭评论区
   [params.comment]
-    provider = 'twikoo'
+    provider = 'waline'
 
   # --- Waline 评论（https://waline.js.org/）---
   # 仅当 params.comment.provider = waline 时生效；当前使用 twikoo，此处留作切换备用
   [params.waline]
-    serverURL = 'https://your-waline-url'                                # 切换到 waline 时填写服务端地址（末尾不要加 /）
+    serverURL = 'https://api.zcservice.houlang.cloud/comment/1aa9849c75eff47b8664584ade593546'                                # 切换到 waline 时填写服务端地址（末尾不要加 /）
     placeholder = '分享你的想法...'
 
   # --- Twikoo 评论（仅当 params.comment.provider = twikoo 时生效）---
@@ -267,8 +267,8 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
 
   # --- 顶栏标题 ---
   [params.navbar]
-    titleParts = ['AIOVTUE-', '雪']   # 顶栏主标题分段（可产生动画效果）
-    subTitle = '雨是神的烟花'
+    titleParts = ['CEAZER-', '璨']   # 顶栏主标题分段（可产生动画效果）
+    subTitle = '日高烟敛，更看今日晴未'
     offset = 0
 
     # 移动端下滑隐藏顶栏（首页除外）
