@@ -29,7 +29,7 @@
 # =============================================================================
 
 # 站点正式访问地址（影响 sitemap、RSS、分享链接等绝对 URL，部署前务必与真实域名一致）
-baseURL = 'https://daily.yybb.us/'
+baseURL = 'https://hugo-ceazer-01.pages.dev/'
 locale = 'zh-cn'
 defaultContentLanguage = 'zh'
 title = 'CEAZER'          # 站点名称（浏览器标题、页脚版权等）
@@ -91,7 +91,7 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
   subtitle = '璨'                              # 副标题（首页标题后缀）
   description = '日高烟敛，更看今日晴未'                  # 站点默认描述（SEO、分享卡片）
   primaryColor = '#DF9193'                     # 主题主色
-  favicon = '/hero/avatar.png'
+  favicon = 'https://cloudflare-imgbed-620.pages.dev/file/头像/1783233933547_avatar-1.png'
   defaultCover = '/hero/tt3.png'               # 文章默认头图（无 cover 时使用）
   math = false                                 # 默认关闭；单篇 front matter 写 math: true 启用构建时 KaTeX 渲染
   postIndent = true                            # 文章/关于页正文首行缩进 2em（单篇可写 indent: false 关闭）
