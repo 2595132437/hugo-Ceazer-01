@@ -3,11 +3,11 @@ title: "AI-雪想说的一些话"
 description: "AI-雪有话想对你说哦，愿意看看吗~"
 date: 2026-06-11
 lastmod: 2026-06-11
-cover: "/hero/tt1.png"
+cover: "https://cloudflare-imgbed-620.pages.dev/file/壁纸/1783249549305_129.jpg"
 categories:
-  - 随笔
+  - 其他
 tags:
-  - 随笔
+  - 其他
   - AIOVTUE-雪
 pinned: true
 ---
