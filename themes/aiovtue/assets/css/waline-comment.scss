@@ -74,7 +74,7 @@
     border-radius: 12px;
     background: var(--wl-comment-card-bg);
     box-shadow: none;
-    overflow: hidden;
+    overflow: visible;
   }
 
   .wl-header {
@@ -148,7 +148,7 @@
   }
 
   .wl-header input::placeholder {
-    color: #c0c4cc;
+    color: #8c939d;
   }
 
   .wl-editor {
