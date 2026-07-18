@@ -8,7 +8,7 @@ cover: "/hero/tt1.png"
 # linkGroups：推荐网站分组，可增删组；每组 links 为网站卡片列表
 linkGroups:
   - name: 技术博客
-    type: simple
+    type: preview
     desc: 这里放一些优秀的技术博客推荐~
     links:
       - url: https://gohugo.io/
