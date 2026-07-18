@@ -1,0 +1,43 @@
+# =============================================================================
+# 推荐网站数据（推荐网站页 /recommend/ 读取此文件）
+# 页面壳子在 content/recommend.md，卡片内容在此维护
+
+title: 推荐网站
+cover: "/hero/tt1.png"
+
+# linkGroups：推荐网站分组，可增删组；每组 links 为网站卡片列表
+linkGroups:
+  - name: 技术博客
+    desc: 这里放一些优秀的技术博客推荐~
+    links:
+      - url: https://gohugo.io/
+        avatar: https://gohugo.io/favicon-32x32.png
+        name: Hugo
+        blog: Hugo 官方文档
+        desc: 全世界最快的静态网站生成框架
+        color: "#FF4088"
+        siteshot: https://s0.wp.com/mshots/v1/https://gohugo.io?w=800&h=450
+
+      - url: https://www.go.dev/
+        avatar: https://go.dev/images/favicon-gopher.png
+        name: Go
+        blog: Go 编程语言
+        desc: 高性能、简洁的编程语言
+        color: "#00ADD8"
+
+  - name: 设计资源
+    desc: 好用的设计工具和资源网站~
+    links:
+      - url: https://www.iconify.design/
+        avatar: https://api.dicebear.com/7.x/adventurer/svg?seed=iconify
+        name: Iconify
+        blog: Iconify 图标库
+        desc: 海量免费图标，本博客就在用
+        color: "#1769AA"
+
+      - url: https://unsplash.com/
+        avatar: https://api.dicebear.com/7.x/adventurer/svg?seed=unsplash
+        name: Unsplash
+        blog: Unsplash 免费图片
+        desc: 高质量免费可商用图片
+        color: "#000000"

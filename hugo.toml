@@ -348,10 +348,18 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
     icon = 'ant-design:message-filled'
     weight = 4
   [[params.menu.main]]
-    name = '友链'
+    name = '导航'
     url = '/links/'
     icon = 'ant-design:global-outlined'
     weight = 5
+    [[params.menu.main.items]]
+      name = '友链'
+      url = '/links/'
+      icon = 'ant-design:link-outlined'
+    [[params.menu.main.items]]
+      name = '推荐'
+      url = '/recommend/'
+      icon = 'ant-design:star-filled'
   [[params.menu.main]]
     name = '关于'
     url = '/about/'

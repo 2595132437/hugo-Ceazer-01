@@ -46,7 +46,7 @@
 
 {{- end -}}
 
-{{- if eq .Layout "links" -}}
+{{- if or (eq .Layout "links") (eq .Layout "recommend") -}}
 
   {{- partial "stylesheet.html" (dict "name" "css/links.scss" "key" "links") -}}
 
