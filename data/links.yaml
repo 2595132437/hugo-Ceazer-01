@@ -40,6 +40,7 @@ linkGroups:
  
         
   - name: 推荐网站
+    type: simple
     desc: 这里是最熟悉的小伙伴（位置不限量哦~）
     layout: simple
     links:
